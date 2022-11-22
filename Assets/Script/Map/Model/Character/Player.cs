@@ -174,8 +174,19 @@ namespace Map.Model.Character
 				m_rigid_body.MovePosition(m_rigid_body.position + (t_add_pos * (m_chara_move_speed * Time.deltaTime)));
 			}
 #else
+			// ゲーム終了追加
+			if (UnityEngine.Input.GetKey(KeyCode.Escape) == true)
+			{
+#if UNITY_EDITOR
+				UnityEditor.EditorApplication.isPlaying = false;
+#else
+				Application.Quit();		
+#endif
+
+			}
+
 			//カメラ基準による移動
-			
+
 			var t_move_pos = Vector3.zero;
 			if (UnityEngine.Input.GetKey(KeyCode.W) == true)
 			{
