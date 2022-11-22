@@ -6,10 +6,19 @@
 * Editor Visual Studio 2017
 
 # 実行方法
+# Ediror
 SampleSceneシーンを開いて実行  
 ```bash
 Assets/Scenes/SampleScene.unity
 ```
+# 実行ファイル
+動作環境 windows10 64bit  
+ディレクトリの  
+```bash
+/Build/RogueLike.exe
+```
+を実行  
+
 # 操作説明
 AWDSキーで移動  
 マウス操作で始点変更  
