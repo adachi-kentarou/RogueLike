@@ -14,6 +14,7 @@ Assets/Scenes/SampleScene.unity
 AWDSキーで移動  
 マウス操作で始点変更  
 マウス右クリックで始点を正面にリセット  
+マウスホイール回転でカメラのズーム変更  
 
 # パラメーター説明
 HierarchyウィンドウからGameObjectにAddCompornentされている  
