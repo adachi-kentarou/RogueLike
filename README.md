@@ -6,12 +6,12 @@
 * Editor Visual Studio 2017
 
 # 実行方法
-# Ediror
+* Ediror
 SampleSceneシーンを開いて実行  
 ```bash
 Assets/Scenes/SampleScene.unity
 ```
-# 実行ファイル
+* 実行ファイル
 動作環境 windows10 64bit  
 ディレクトリの  
 ```bash
